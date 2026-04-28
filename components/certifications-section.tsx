@@ -38,7 +38,7 @@ const certifications = [
   {
     name: "Introduction to Modern AI",
     issuer: "Cisco",
-    verificationUrl: "https://www.credly.com/badges/verify",
+    verificationUrl: "https://www.credly.com/badges/d8109cfd-55f8-4d2f-991e-9a7ae0a3952a/public_url",
     credentialId: "d8109cfd-55f8-4d2f-991e-9a7ae0a3952a",
   },
   {
