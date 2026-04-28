@@ -33,11 +33,7 @@ export function SummarySection() {
               Travellab Group has benefited from my role as an IT Support Engineer since 2021, where I contribute to IT asset management, virtualisation, and preventive maintenance. My work involves addressing diverse technical challenges and supporting the organisation's IT infrastructure to ensure system optimization and reliability.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Skilled in Active Directory administration, server maintenance,
-              and virtualization. Holds CompTIA A+ and N+ certifications with
-              ongoing studies toward a National IT Diploma. Recognized for
-              exceptional problem-solving abilities and delivering measurable
-              improvements in system reliability and user satisfaction.
+              IT professional with CompTIA, Cisco, AWS, and Fortinet certifications, demonstrating commitment to continuous technical growth. I combine advanced technical knowledge with hands-on expertise to design and implement robust IT solutions while delivering responsive support. Actively developing skills toward cloud engineering and cybersecurity specialization.
             </p>
           </div>
 
