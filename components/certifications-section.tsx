@@ -50,7 +50,7 @@ const certifications = [
   {
     name: "Introduction to the Threat Landscape 2.0",
     issuer: "Fortinet",
-    verificationUrl: "https://www.credly.com/badges/verify",
+    verificationUrl: "https://www.credly.com/badges/69dc13d4-bc0a-4464-9fda-05fc6de272f2/public_url",
     credentialId: "69dc13d4-bc0a-4464-9fda-05fc6de272f2",
   },
 
