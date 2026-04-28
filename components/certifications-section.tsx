@@ -18,6 +18,12 @@ const certifications = [
     credentialId: "9ab4d93c-2add-4248-904d-b038d5088955",
   },
   {
+    name: "CompTIA IT Operations Specialist",
+    issuer: "CompTIA",
+    verificationUrl: "https://www.credly.com/badges/c8f216d7-16d0-44ed-a4a1-106e90865e6b/public_url",
+    credentialId: "c8f216d7-16d0-44ed-a4a1-106e90865e6b",
+  },
+  {
     name: "AWS Knowledge: Cloud Essentials",
     issuer: "Amazon Web Services Training and Certification",
     verificationUrl: "https://www.credly.com/badges/a5b9c9a6-7e88-45da-80f7-9fb6b0ae7e00/public_url",
