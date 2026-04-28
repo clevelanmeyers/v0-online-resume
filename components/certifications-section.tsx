@@ -20,7 +20,7 @@ const certifications = [
   {
     name: "AWS Knowledge: Cloud Essentials",
     issuer: "Amazon Web Services Training and Certification",
-    verificationUrl: "https://www.credly.com/badges/verify",
+    verificationUrl: "https://www.credly.com/badges/a5b9c9a6-7e88-45da-80f7-9fb6b0ae7e00/public_url",
     credentialId: "a5b9c9a6-7e88-45da-80f7-9fb6b0ae7e00",
   },
   {
