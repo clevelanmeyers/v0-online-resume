@@ -8,7 +8,7 @@ const certifications = [
   {
     name: "CompTIA A+",
     issuer: "CompTIA",
-    verificationUrl: "https://www.certmetrics.com/comptia/public/verification.aspx",
+    verificationUrl: "https://www.credly.com/badges/ecf60859-17f0-472b-8c3d-1d11c7957342/public_url",
     credentialId: "ecf60859-17f0-472b-8c3d-1d11c7957342",
   },
   {
