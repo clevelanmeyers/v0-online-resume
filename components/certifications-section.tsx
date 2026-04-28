@@ -9,32 +9,51 @@ const certifications = [
     name: "CompTIA A+",
     issuer: "CompTIA",
     verificationUrl: "https://www.certmetrics.com/comptia/public/verification.aspx",
-    credentialId: "COMP001022106789",
+    credentialId: "ecf60859-17f0-472b-8c3d-1d11c7957342",
   },
   {
     name: "CompTIA Network+ (N+)",
     issuer: "CompTIA",
     verificationUrl: "https://www.certmetrics.com/comptia/public/verification.aspx",
-    credentialId: "COMP001022106790",
+    credentialId: "9ab4d93c-2add-4248-904d-b038d5088955",
   },
   {
-    name: "IT Essentials",
-    issuer: "Cisco NETACAD",
+    name: "AWS Knowledge: Cloud Essentials",
+    issuer: "Amazon Web Services Training and Certification",
     verificationUrl: "https://www.credly.com/badges/verify",
-    credentialId: "cisco-it-essentials",
+    credentialId: "a5b9c9a6-7e88-45da-80f7-9fb6b0ae7e00",
+  },
+  {
+    name: "ISC2 Candidate",
+    issuer: "ISC2",
+    verificationUrl: "https://www.credly.com/badges/verify",
+    credentialId: "5ebf1eff-e29d-4bb6-9c21-320b5332b9a7",
   },
   {
     name: "Introduction to Cybersecurity",
     issuer: "Cisco",
     verificationUrl: "https://www.credly.com/badges/verify",
-    credentialId: "cisco-intro-cybersecurity",
+    credentialId: "d06a39d5-77e3-41ea-b41f-3c7767bfbe81",
+  },
+  {
+    name: "Introduction to Modern AI",
+    issuer: "Cisco",
+    verificationUrl: "https://www.credly.com/badges/verify",
+    credentialId: "d8109cfd-55f8-4d2f-991e-9a7ae0a3952a",
   },
   {
     name: "Junior Cybersecurity Analyst",
     issuer: "Cisco",
     verificationUrl: "https://www.credly.com/badges/verify",
-    credentialId: "cisco-jr-cybersecurity",
+    credentialId: "1e840a19-45cc-469c-b0ad-d4a80087f8db",
   },
+  {
+    name: "Introduction to the Threat Landscape 2.0",
+    issuer: "Fortinet",
+    verificationUrl: "https://www.credly.com/badges/verify",
+    credentialId: "69dc13d4-bc0a-4464-9fda-05fc6de272f2",
+  },
+
 ];
 
 interface QRModalProps {
@@ -47,42 +66,42 @@ function QRModal({ isOpen, onClose, certification }: QRModalProps) {
   if (!isOpen || !certification) return null;
 
   return (
-    <div 
+    <div
       className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-background/80 backdrop-blur-sm"
       onClick={onClose}
     >
-      <div 
+      <div
         className="bg-card border border-border rounded-xl p-6 max-w-sm w-full shadow-2xl"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-center justify-between mb-4">
           <h3 className="text-lg font-semibold text-foreground">Verify Certification</h3>
-          <button 
+          <button
             onClick={onClose}
             className="p-1 rounded-lg hover:bg-secondary transition-colors"
           >
             <X className="w-5 h-5 text-muted-foreground" />
           </button>
         </div>
-        
+
         <div className="flex flex-col items-center">
           <div className="bg-white p-4 rounded-xl mb-4">
-            <QRCodeSVG 
+            <QRCodeSVG
               value={certification.verificationUrl}
               size={200}
               level="H"
               includeMargin={false}
             />
           </div>
-          
+
           <div className="text-center">
             <h4 className="font-semibold text-foreground">{certification.name}</h4>
             <p className="text-sm text-muted-foreground mb-2">{certification.issuer}</p>
             <p className="text-xs text-muted-foreground mb-4">
               Credential ID: {certification.credentialId}
             </p>
-            
-            <a 
+
+            <a
               href={certification.verificationUrl}
               target="_blank"
               rel="noopener noreferrer"
@@ -163,10 +182,10 @@ export function CertificationsSection() {
                       </p>
                     </div>
                   </div>
-                  
+
                   {/* Mini QR code preview */}
                   <div className="bg-white p-1.5 rounded-md opacity-60 group-hover:opacity-100 transition-opacity">
-                    <QRCodeSVG 
+                    <QRCodeSVG
                       value={cert.verificationUrl}
                       size={32}
                       level="L"
@@ -180,7 +199,7 @@ export function CertificationsSection() {
       </div>
 
       {/* QR Code Modal */}
-      <QRModal 
+      <QRModal
         isOpen={!!selectedCert}
         onClose={() => setSelectedCert(null)}
         certification={selectedCert}
