@@ -26,7 +26,7 @@ const certifications = [
   {
     name: "ISC2 Candidate",
     issuer: "ISC2",
-    verificationUrl: "https://www.credly.com/badges/verify",
+    verificationUrl: "https://www.credly.com/badges/5ebf1eff-e29d-4bb6-9c21-320b5332b9a7/public_url",
     credentialId: "5ebf1eff-e29d-4bb6-9c21-320b5332b9a7",
   },
   {
