@@ -14,7 +14,7 @@ const certifications = [
   {
     name: "CompTIA Network+ (N+)",
     issuer: "CompTIA",
-    verificationUrl: "https://www.certmetrics.com/comptia/public/verification.aspx",
+    verificationUrl: "https://www.credly.com/badges/9ab4d93c-2add-4248-904d-b038d5088955/public_url",
     credentialId: "9ab4d93c-2add-4248-904d-b038d5088955",
   },
   {
