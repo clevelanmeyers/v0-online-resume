@@ -32,7 +32,7 @@ const certifications = [
   {
     name: "Introduction to Cybersecurity",
     issuer: "Cisco",
-    verificationUrl: "https://www.credly.com/badges/verify",
+    verificationUrl: "https://www.credly.com/badges/d06a39d5-77e3-41ea-b41f-3c7767bfbe81/public_url",
     credentialId: "d06a39d5-77e3-41ea-b41f-3c7767bfbe81",
   },
   {
