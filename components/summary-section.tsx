@@ -9,10 +9,10 @@ const personalDetails = [
 
 const competencies = [
   "Active Directory Administration",
-  "Windows Server Maintenance",
+  "Windows Server Maintenance & Congfiguration",
   "Virtualization (Proxmox & VMware)",
   "Network Infrastructure",
-  "Hardware & Software Optimization",
+  "System Reliabilty & Optimization",
   "ITSM / Ticketing Systems",
   "Technical Documentation & Training",
   "IT Security Best Practices",
@@ -30,11 +30,7 @@ export function SummarySection() {
         <div className="grid md:grid-cols-3 gap-12">
           <div className="md:col-span-2">
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              Results-driven IT Support Technician with 4+ years of hands-on
-              experience delivering remote and on-site technical support across
-              a large corporate environment. Adept at diagnosing and resolving
-              complex hardware, software, and network issues while maintaining
-              high service levels.
+              Travellab Group has benefited from my role as an IT Support Engineer since 2021, where I contribute to IT asset management, virtualisation, and preventive maintenance. My work involves addressing diverse technical challenges and supporting the organisation's IT infrastructure to ensure system optimization and reliability.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed">
               Skilled in Active Directory administration, server maintenance,
