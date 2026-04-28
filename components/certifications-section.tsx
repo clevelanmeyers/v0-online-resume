@@ -44,7 +44,7 @@ const certifications = [
   {
     name: "Junior Cybersecurity Analyst",
     issuer: "Cisco",
-    verificationUrl: "https://www.credly.com/badges/verify",
+    verificationUrl: "https://www.credly.com/badges/1e840a19-45cc-469c-b0ad-d4a80087f8db/public_url",
     credentialId: "1e840a19-45cc-469c-b0ad-d4a80087f8db",
   },
   {
