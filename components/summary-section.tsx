@@ -12,10 +12,11 @@ const competencies = [
   "Windows Server Maintenance",
   "Virtualization (Proxmox & VMware)",
   "Network Infrastructure",
-  "Hardware & Software Troubleshooting",
+  "Hardware & Software Optimization",
   "ITSM / Ticketing Systems",
-  "Technical Documentation",
+  "Technical Documentation & Training",
   "IT Security Best Practices",
+  "Strategic Problem Solving"
 ];
 
 export function SummarySection() {
