@@ -2,7 +2,7 @@ import { User, MapPin, Globe, Clock } from "lucide-react";
 
 const personalDetails = [
   { label: "Nationality", value: "South African" },
-  { label: "Availability", value: "Immediately Available" },
+  { label: "Availability", value: "Calender Month" },
   { label: "Location", value: "Cape Town" },
   { label: "Languages", value: "English (Fluent)" },
 ];

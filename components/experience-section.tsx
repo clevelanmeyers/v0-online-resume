@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 const experiences = [
   {
     period: "2021 – Present",
-    title: "IT Support Technician",
+    title: "IT Support Engineer",
     company: "Travellab Group",
     location: "Cape Town",
     responsibilities: [
