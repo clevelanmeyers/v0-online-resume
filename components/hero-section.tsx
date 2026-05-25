@@ -26,7 +26,7 @@ export function HeroSection() {
             className="gap-2"
             asChild
           >
-            <a href="mailto:clevelanmeyers@gmail.com">
+            <a href="https://wa.me/27818732738?text=Hi%20Clevelan%2C%20I%27d%20like%20to%20connect%20with%20you!" target="_blank" rel="noopener noreferrer">
               <Coffee className="w-4 h-4" />
               {"Let's grab a coffee"}
             </a>
