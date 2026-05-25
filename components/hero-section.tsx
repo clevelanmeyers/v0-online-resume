@@ -37,7 +37,7 @@ export function HeroSection() {
             className="gap-2"
             asChild
           >
-            <a href="#contact">
+            <a href="/Clevelan_Meyers_CV.pdf" download="Clevelan_Meyers_CV.pdf">
               <Download className="w-4 h-4" />
               Download CV
             </a>
