@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: MapPin,
     label: "Location",
-    value: "16 Hyacinth Rd, Cape Town, 7493",
+    value: "Belhar, Cape Town",
     href: null,
   },
 ];
