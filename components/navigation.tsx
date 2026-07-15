@@ -38,8 +38,13 @@ export function Navigation() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="#" className="text-foreground font-semibold text-lg">
-            CM
+          <a href="#" className="flex items-center gap-2 text-foreground font-semibold text-lg">
+            <img
+              src="/clevelan-headshot.png"
+              alt="Clevelan Meyers"
+              className="w-10 h-10 rounded-full object-cover border border-border"
+            />
+            <span className="hidden sm:inline">Clevelan Meyers</span>
           </a>
 
           {/* Desktop Navigation */}
