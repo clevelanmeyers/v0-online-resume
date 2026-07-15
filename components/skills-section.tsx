@@ -1,12 +1,15 @@
-import { Server, Shield, Monitor, Network } from "lucide-react";
+import { Server, Monitor, Network, Database } from "lucide-react";
 
 const skillCategories = [
   {
     title: "Systems Administration",
     icon: Server,
     skills: [
-      "Active Directory, DHCP & DNS",
+      "Active Directory Domain Services",
+      "DHCP & DNS Configuration",
       "Windows OS – Client & Server",
+      "Group Policy Management",
+      "File Server & Shared Folder Permissions",
       "Microsoft Exchange & Microsoft 365",
       "Google Workspace",
     ],
@@ -15,10 +18,24 @@ const skillCategories = [
     title: "Virtualization & Infrastructure",
     icon: Monitor,
     skills: [
-      "Virtualization (Proxmox & VMware)",
+      "Virtualization (Proxmox VE & VMware)",
+      "Lab / Test Environment Design",
+      "VM Provisioning & Management",
       "Hardware & Software Configuration",
-      "IT Asset Management",
+      "IT Asset Management (Snipe-IT)",
       "ITSM / Ticketing Systems",
+    ],
+  },
+  {
+    title: "Web Hosting & Databases",
+    icon: Database,
+    skills: [
+      "IIS Web Server Administration",
+      "PHP (FastCGI) Configuration",
+      "MariaDB / MySQL Administration",
+      "Composer Dependency Management",
+      "Self-Hosted Web App Deployment",
+      "Server Stack Maintenance & Updates",
     ],
   },
   {
@@ -27,6 +44,7 @@ const skillCategories = [
     skills: [
       "Network Cabling & Infrastructure",
       "IT Security Best Practices",
+      "User Permissions & Access Control",
       "Remote Support & Troubleshooting",
       "Technical Documentation",
     ],
@@ -41,7 +59,7 @@ export function SkillsSection() {
           Technical Expertise
         </h2>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {skillCategories.map((category) => (
             <div
               key={category.title}
