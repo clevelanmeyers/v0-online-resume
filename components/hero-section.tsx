@@ -46,7 +46,7 @@ export function HeroSection() {
 
         <blockquote className="border-l-2 border-primary pl-6 text-left max-w-xl mx-auto">
           <p className="text-muted-foreground italic text-lg">
-            {'"The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself.The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself."'}
+            {'"The first step toward success is taken when you refuse to be a captive of the environment in which you first find yourself."'}
           </p>
           <footer className="text-sm text-muted-foreground/70 mt-2">
             — Mark Caine
